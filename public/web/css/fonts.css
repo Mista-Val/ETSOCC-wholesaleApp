@@ -1,0 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap');
+
+:root {
+  --font-family:"Manrope", sans-serif;
+  --light: 300;
+  --regular: 400;
+  --medium: 500;
+  --semibold: 600;
+  --bold: 700;
+  --extra-bold: 800;
+}
+
+.regular{font-weight: var(--regular) !important;}
+.medium{font-weight: var(--medium) !important;}
+.bold{font-weight: var(--bold) !important;}
+.light{font-weight: var(--light) !important;}
+.semibold{font-weight: var(--semibold) !important;}
+.bold{font-weight: var(--bold) !important;}

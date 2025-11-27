@@ -1,0 +1,198 @@
+table.dataTable th.dt-type-numeric, table.dataTable th.dt-type-date, table.dataTable td.dt-type-numeric, table.dataTable td.dt-type-date{
+  text-align: left;
+}
+div.dt-container .dt-paging .dt-paging-button.current, div.dt-container .dt-paging .dt-paging-button.current:hover{
+  
+  background-color: #6259ca;
+  border-color: #6259ca;color: #fff !important;
+}
+div.dt-layout-row .dt-paging.paging_full_numbers button {
+    border: 1px solid #e8e8f7 !important;
+    margin: 0px;
+    border-left: 0px !important;
+}
+
+div.dt-layout-row .dt-paging.paging_full_numbers button:first-child{
+  border-left: 1px solid #e8e8f7 !important;
+}
+div.dt-container .dt-paging .dt-paging-button:hover{
+  background: #f0f0ff !important;
+  color: #000 !important;
+}
+
+.form-control {
+  color: #424040;
+}
+
+.main-footer {
+  position: fixed;
+  width: 100%;
+  bottom: 0px;
+}
+
+.avatar {
+  position:relative;
+  display:inline-block;
+  width:2.625rem;
+  height:2.625rem;
+  border-radius:.5rem
+}
+.avatar.avatar-xxxs { width: 24px;height: 24px;border-radius: 24px; } 
+.avatar.avatar-xxs { width: 32px;height: 32px;border-radius: 32px; } 
+.avatar.avatar-xs { width: 40px;height: 40px;border-radius: 40px; } 
+.avatar.avatar-sm { width: 48px;height: 48px;border-radius: 48px; } 
+.avatar.avatar-md { width: 64px;height: 64px;border-radius: 64px; } 
+.avatar.avatar-xl { width: 96px;height: 96px;border-radius: 96px; } 
+
+table.dataTable th.dt-type-numeric {
+  text-align: left !important;
+}
+table.dataTable td.dt-type-numeric {
+  text-align: left !important;
+}
+
+div.dt-container div.dt-layout-cell.dt-start{padding-top: 0px;}
+div.dt-container div.dt-layout-cell.dt-end{padding-top: 0px;}
+/* tr td{overflow: hidden;} */
+.show-password{position: absolute;
+  right: 10px;
+  top: 9px;
+  cursor: pointer;
+}
+
+.custom-checkbox {
+  display: block;
+    position: relative;
+    padding-left: 0px;
+    margin-bottom: 0;
+    cursor: pointer;
+    font-size: 22px;
+    user-select: none;
+    margin-top: 10px;
+}
+
+.custom-checkbox input {
+  position: absolute;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin-top: 3px;
+}
+
+.custom-checkbox p {
+  font-size: 15px;
+    color: #1d212f;
+    padding-left: 24px;
+}
+
+.forget-password {
+  color: #6259ca;
+  text-decoration: none;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 1px solid #e8e8f7 !important;
+}
+div.dt-container.dt-empty-footer tbody > tr:last-child > *{border-bottom: 1px solid #e8e8f7 !important;}
+div.dt-container .dt-search input{border: 1px solid #e8e8f7 !important;}
+div.dt-container .dt-input{border: 1px solid #e8e8f7 !important;}
+.ck-editor__editable_inline {
+  height: 200px; /* Adjust the height as needed */
+}
+.line-height-24{line-height: 24px;}
+.select-down-arrow::after {
+  content: "\f0d7";
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  pointer-events: none;
+  font-family: "Font Awesome 5 Free";
+  font-weight: 900;
+  font-size: 16px;
+  color: #969696;
+}
+.select-down-arrow {
+  position: relative;
+}
+.select-down-arrow select{
+  appearance: none;
+  padding-right: 30px;
+  }
+  .login-logo-container {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    top: 50%;
+}
+.login-logo-container .header-brand-img {
+    width: 160px;
+}
+.table-actions .btn-group .btn{
+  border: 1px solid #efefff;
+  color: #8f9cc0;
+}
+.table-actions .btn-group .btn.delete:hover{
+  background-color: #f14746;
+  border-color: #f14746;
+  color: #fff;
+}
+.table-actions .btn-group .btn.edit:hover{
+  background-color: #f7b024;
+  border-color: #f7b024;
+  color: #fff;
+}
+.table-actions .btn-group .btn.view:hover{
+  background-color: #36c330;
+  border-color: #36c330;
+  color: #fff;
+}
+.table-actions .btn-group .btn.more:hover{
+  background-color: #767676;
+  border-color: #767676;
+  color: #fff;
+}
+.table-filters {
+  position: relative;
+}
+.table-filters .filter-icon {
+  color: #8f9cc0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 10px;
+  z-index: 9;
+}
+.table-filters input {
+  width: 200px;
+  padding-left: 30px;
+}
+.table-filters select{
+  padding-left: 30px;
+}
+.skeleton-line {
+  height: 22px;
+  margin-bottom: 0.5em;
+  border-radius: 4px;
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: wave 1.5s infinite linear;
+}
+
+.skeleton-line.short {
+  width: 70%;
+}
+
+@keyframes wave {
+  0% {
+    background-position: 200% 0;
+  }
+
+  100% {
+    background-position: -200% 0;
+  }
+}
+a[disabled], .disabled{
+  cursor: not-allowed;
+}

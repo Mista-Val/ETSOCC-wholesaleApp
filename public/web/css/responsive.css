@@ -1,0 +1,13 @@
+@media screen and (max-width: 1373px){
+.container{max-width: 100%; width: 100%;}    
+}
+
+@media screen and (max-width: 768px) {
+.container-fluid{margin: 0px 15px;}
+.hero-section .swiper-button-prev, .hero-section .swiper-button-next{display: none !important;}
+
+.menu-item-box{position: absolute; background: var(--card-1); top: 83px; width: auto; left: 0px; right: 0px; border-radius: 0px; padding: 15px;}
+.menu-item-box ul li{width: 100%; text-align: center;}
+.menu-item-box{flex-direction: column; gap: 20px; display: flex;}
+.menu-item-box ul{gap: 10px !important;}
+}

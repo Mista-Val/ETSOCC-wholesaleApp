@@ -1,0 +1,90 @@
+:root{
+--h1:clamp(28px, 4vw, 36px);
+--h2:clamp(26px, 4vw, 32px);
+--h3:clamp(26px, 4vw, 32px);
+--h4:clamp(24px, 4vw, 28px);
+--h5:clamp(22px, 4vw, 24px);
+--h6:clamp(20px, 4vw, 22px);
+--body-14-regular: 14px;
+--body-14-semibold: 14px;
+--body-16-regular: 16px;
+--body-16-semibold: 16px;
+--body-18-regular: 18px;
+--body-18-semibold: 18px;
+--body-20-regular: 20px;
+--body-20-semibold: 20px;
+}
+
+
+.h1 { font-size: var(--h1); line-height: normal; font-weight: var(--bold);}
+.h2 { font-size: var(--h2); line-height: normal; font-weight: var(--bold);}
+.h3 { font-size: var(--h3); line-height: normal; font-weight: var(--bold);}
+.h4 { font-size: var(--h4); line-height: normal; font-weight: var(--bold);}
+.h5 { font-size: var(--h5); line-height: normal; font-weight: var(--bold);}
+.h6 { font-size: var(--h6); line-height: normal; font-weight: var(--bold);}
+.body-14-regular { font-size: var(--body-14-regular); line-height:normal; font-weight: var(--regular); }
+.body-14-semibold { font-size: var(--body-14-semibold); line-height: normal; font-weight: var(--semibold); }
+.body-16-regular { font-size: var(--body-16-regular); line-height: normal; font-weight: var(--regular); }
+.body-16-semibold { font-size: var(--body-16-semibold); line-height: normal; font-weight: var(--semibold); }
+.body-18-regular { font-size: var(--body-18-regular); line-height: normal; font-weight: var(--regular); }
+.body-18-semibold { font-size: var(--body-18-semibold); line-height: normal; font-weight: var(--semibold); }
+.body-20-regular { font-size: var(--body-20-regular); line-height: normal; font-weight: var(--regular); }
+.body-20-semibold { font-size: var(--body-20-semibold); line-height: normal; font-weight: var(--semibold); }
+
+body{font-family: var(--font-family); font-weight: var(--regular); font-size: 16px; margin: 0; padding: 0; background:#F9F9F9; box-sizing: border-box;}
+.container{max-width: 1374px !important; margin: 0 auto; padding: 0px 15px;}
+.container-fluid{max-width: 100%; margin: 0px 30px;}
+
+a{transition: all 0.3s ease-in-out; text-decoration: none;}
+button{transition: all 0.3s ease-in-out;}
+
+.btn{height: 46px; border-radius: 8px; color: var(--white); font-size: 16px; font-weight: var(--semibold); border: none; display: inline-flex; align-items: center; justify-content: center; padding: 0px 15px; gap: 15px; cursor: pointer; box-shadow: none; min-height: 10px; text-transform: capitalize; line-height: 44px;}
+.btn-primary{border-radius: 8px; border: 1px solid var(--color-primary-600); background: var(--color-primary-600); color:var(--white) !important;}
+.btn-primary:hover{background: var(--color-primary-700); border-color: var(--color-primary-700);}
+
+.btn i{font-size: 24px;}
+.btn-outline,.btn-outline:hover{border:solid 1px var(--color-primary-600); color: var(--color-primary-600); background: none;}
+
+
+.icon-btn{width: 48px; height: 48px; flex:0 0 48px; border-radius: 10px; display: flex; align-items:center; justify-content: center; font-size: 28px; color: var(--white);}
+.show{display: block !important;}
+.section-padding{padding-top: clamp(30px, 4vw, 100px); padding-bottom: clamp(30px, 4vw, 100px);}
+.form-group{display: flex; flex-direction: column; gap: 5px; margin-bottom: 15px; position: relative;}
+.form-control,.form-control:focus{background: var(--white); color: var(--black); border-radius: 8px; border: solid 1px var(--color-gry-50); outline: none; box-shadow: none; height: 46px; padding: 10px 15px; width: 100%;}
+.form-control::placeholder{color: var(--color-gry-200);}
+.form-group label{font-size: 14px; font-weight: var(--semibold); color: var(--color-gry-700);}
+
+.form-check-input{background-color: var(--ligt-gray); outline: none !important; border: none !important; box-shadow: none !important; width: 24px !important; height: 24px !important; position: relative;}
+.form-check-input:checked{background-color: var(--color-primary-900);}
+.forgot-box a{color: var(--color-primary-900); text-transform: capitalize; font-weight: medium;}
+textarea.form-control,textarea.form-control:focus{height: 120px; resize: none;}
+
+.form-control[type="date"], .form-control.flatpickr-input {
+  background: url("data:image/svg+xml,%3Csvg width='24' height='24' viewBox='0 0 24 24' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M8 2V5' stroke='%23333333' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M16 2V5' stroke='%23333333' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M3.5 9.08984H20.5' stroke='%23171717' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M21 8.5V17C21 20 19.5 22 16 22H8C4.5 22 3 20 3 17V8.5C3 5.5 4.5 3.5 8 3.5H16C19.5 3.5 21 5.5 21 8.5Z' stroke='%23171717' stroke-width='1.5' stroke-miterlimit='10' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M15.6947 13.7002H15.7037' stroke='%23171717' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M15.6947 16.7002H15.7037' stroke='%23171717' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M11.9955 13.7002H12.0045' stroke='%23171717' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M11.9955 16.7002H12.0045' stroke='%23171717' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M8.29431 13.7002H8.30329' stroke='%23171717' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cpath d='M8.29431 16.7002H8.30329' stroke='%23171717' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3C/svg%3E%0A") #fff !important;
+    background-position-x: 0%;
+    background-position-y: 0%;
+    background-repeat: repeat;
+  background-repeat: no-repeat !important;
+  background-position: center right 15px !important;
+  padding-right: 20px;
+}
+.
+
+p{color: var(--black-white-black);}
+blockquote{color: var(--black-white-black);}
+.pt-0{padding-top: 0 !important;}
+.pb-0{padding-bottom: 0 !important;}
+.validation-error {
+    position: relative;
+    top: -3px;
+    font-size: 14px;
+    color: #e40000;
+}
+.theme-confirm-popup{
+    .swal2-confirm{
+        background-color: #2dc7fe;
+    }
+    .swal2-cancel{
+        background-color: #e40000;
+    }
+}
